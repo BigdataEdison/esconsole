@@ -10,12 +10,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+
+import io.renren.entity.SysEsdataEntity;
 import io.renren.service.SysLogService;
 import io.renren.utils.HttpRequest;
 import io.renren.utils.PageUtils;
 import io.renren.utils.*;
 
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
@@ -43,13 +50,15 @@ public class SysEsqueryController {
 	public R list(@RequestParam Map<String, Object> params){
 		logger.info("esquery---->"+params.get("name").toString());
 		String name = params.get("name").toString();
+		//得到string
 		String resultdata = HttpRequest.sendGet("http://ebm.elenet.me/services/es/clusters/", "name="+name);
 		//json格式
-		JSONObject json = JSONObject.parseObject(resultdata);
-		logger.info("==>"+resultdata);
+		JSONObject json = JSONObject.parseObject(resultdata);		
+		logger.info("1.==>"+json);
 		//提取data
 		List<Object> dataList = json.getJSONArray("data");
-
+		
+		logger.info("2.==>"+dataList);//正常
 		JSONObject page = json.getJSONObject("page");
 		//当前页
 		int current = page.getInteger("current");
