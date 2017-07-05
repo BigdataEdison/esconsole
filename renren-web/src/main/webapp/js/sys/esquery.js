@@ -44,7 +44,7 @@ $(function () {
 });
 
 function selfFormat(cellvalue, options, rowdata){
-	return '<img src="'+cellvalue+'" />'
+	return '<a href="'+cellvalue+'"><img src="es.png" width="20px"/></a>'
 }
 
 function getUrlParam(name)
