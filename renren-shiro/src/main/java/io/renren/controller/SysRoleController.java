@@ -39,8 +39,8 @@ public class SysRoleController extends AbstractController {
 	@RequiresPermissions("sys:role:list")
 	public R list(@RequestParam Map<String, Object> params){
 		//如果不是超级管理员，则只查询自己创建的角色列表
-		if(getUserId() != Constant.SUPER_ADMIN){
-			params.put("createUserId", getUserId());
+		if(getId() != Constant.SUPER_ADMIN){
+			params.put("createUserId", getId());
 		}
 		
 		//查询列表数据
@@ -62,8 +62,8 @@ public class SysRoleController extends AbstractController {
 		Map<String, Object> map = new HashMap<>();
 		
 		//如果不是超级管理员，则只查询自己所拥有的角色列表
-		if(getUserId() != Constant.SUPER_ADMIN){
-			map.put("createUserId", getUserId());
+		if(getId() != Constant.SUPER_ADMIN){
+			map.put("createUserId", getId());
 		}
 		List<SysRoleEntity> list = sysRoleService.queryList(map);
 		
@@ -94,7 +94,7 @@ public class SysRoleController extends AbstractController {
 	public R save(@RequestBody SysRoleEntity role){
 		ValidatorUtils.validateEntity(role);
 		
-		role.setCreateUserId(getUserId());
+		role.setCreateUserId(getId());
 		sysRoleService.save(role);
 		
 		return R.ok();
@@ -109,7 +109,7 @@ public class SysRoleController extends AbstractController {
 	public R update(@RequestBody SysRoleEntity role){
 		ValidatorUtils.validateEntity(role);
 		
-		role.setCreateUserId(getUserId());
+		role.setCreateUserId(getId());
 		sysRoleService.update(role);
 		
 		return R.ok();

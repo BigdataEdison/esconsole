@@ -19,10 +19,12 @@ import java.util.List;
 public class SysUserEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
+	private Long id;
+	
 	/**
 	 * 用户ID
 	 */
-	private Long userId;
+//	private Long userId;
 
 	/**
 	 * 用户名
@@ -68,21 +70,30 @@ public class SysUserEntity implements Serializable {
 	 */
 	private Date createTime;
 
+	
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 	/**
 	 * 设置：
 	 * @param userId 
 	 */
-	public void setUserId(Long userId) {
-		this.userId = userId;
-	}
+//	public void setUserId(Long userId) {
+//		this.userId = userId;
+//	}
 
 	/**
 	 * 获取：
 	 * @return Long
 	 */
-	public Long getUserId() {
-		return userId;
-	}
+//	public Long getUserId() {
+//		return userId;
+//	}
 	
 	/**
 	 * 设置：用户名

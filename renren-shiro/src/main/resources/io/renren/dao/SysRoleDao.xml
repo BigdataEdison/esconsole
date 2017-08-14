@@ -4,7 +4,7 @@
 <mapper namespace="io.renren.dao.SysRoleDao">
 
 	<select id="queryObject" resultType="io.renren.entity.SysRoleEntity">
-		select * from sys_role where role_id = #{value}
+		select * from sys_role where id = #{value}
 	</select>
 	
 	<select id="queryList" resultType="io.renren.entity.SysRoleEntity">
@@ -22,7 +22,7 @@
 				order by ${sidx} ${order}
 			</when>
 			<otherwise>
-				order by role_id asc
+				order by id asc
 			</otherwise>
 		</choose>
 		<if test="offset != null and limit != null">
@@ -42,19 +42,17 @@
 		</where>
 	</select>
 	
-	<insert id="save" parameterType="io.renren.entity.SysRoleEntity" useGeneratedKeys="true" keyProperty="roleId">
+	<insert id="save" parameterType="io.renren.entity.SysRoleEntity" useGeneratedKeys="true" keyProperty="id">
 		insert into sys_role
 		(
-			`role_id`, 
-			`role_name`, 
+			`role_name`,
 			`remark`,
 			`create_user_id`,
 			`create_time`
 		)
 		values
 		(
-			#{roleId}, 
-			#{roleName}, 
+			#{roleName},
 			#{remark},
 			#{createUserId},
 			#{createTime}
@@ -67,28 +65,28 @@
 			<if test="roleName != null">`role_name` = #{roleName}, </if>
 			<if test="remark != null">`remark` = #{remark}</if>
 		</set>
-		where role_id = #{roleId}
+		where id = #{id}
 	</update>
 	
 	<delete id="deleteBatch">
-		delete from sys_role where role_id in 
+		delete from sys_role where id in
 		<foreach item="roleId" collection="array" open="(" separator="," close=")">
-			#{roleId}
+			#{id}
 		</foreach>
 		;
 		delete from sys_role_menu where role_id in 
 		<foreach item="roleId" collection="array" open="(" separator="," close=")">
-			#{roleId}
+			#{id}
 		</foreach>
 		;
-		delete from sys_user_role where role_id in 
+		delete from sys_user_role where role_id in
 		<foreach item="roleId" collection="array" open="(" separator="," close=")">
-			#{roleId}
+			#{id}
 		</foreach>
 	</delete>
 	
 	<!-- 查询用户创建的角色ID列表 -->
 	<select id="queryRoleIdList" resultType="long">
-		select role_id from sys_role where create_user_id = #{createUserId} 
+		select id from sys_role where create_user_id = #{createUserId}
 	</select> 
 </mapper>

@@ -62,7 +62,7 @@ public class SysRoleServiceImpl implements SysRoleService {
 		checkPrems(role);
 		
 		//保存角色与菜单关系
-		sysRoleMenuService.saveOrUpdate(role.getRoleId(), role.getMenuIdList());
+		sysRoleMenuService.saveOrUpdate(role.getId(), role.getMenuIdList());
 	}
 
 	@Override
@@ -74,7 +74,7 @@ public class SysRoleServiceImpl implements SysRoleService {
 		checkPrems(role);
 		
 		//更新角色与菜单关系
-		sysRoleMenuService.saveOrUpdate(role.getRoleId(), role.getMenuIdList());
+		sysRoleMenuService.saveOrUpdate(role.getId(), role.getMenuIdList());
 	}
 
 	@Override

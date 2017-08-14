@@ -73,13 +73,16 @@ public class SysUserServiceImpl implements SysUserService {
 		user.setCreateTime(new Date());
 		//sha256加密
 		user.setPassword(new Sha256Hash(user.getPassword()).toHex());
+		
+		
+		
 		sysUserDao.save(user);
 		
 		//检查角色是否越权
 		checkRole(user);
 		
 		//保存用户与角色关系
-		sysUserRoleService.saveOrUpdate(user.getUserId(), user.getRoleIdList());
+		sysUserRoleService.saveOrUpdate(user.getId(), user.getRoleIdList());
 	}
 
 	@Override
@@ -96,7 +99,7 @@ public class SysUserServiceImpl implements SysUserService {
 		checkRole(user);
 		
 		//保存用户与角色关系
-		sysUserRoleService.saveOrUpdate(user.getUserId(), user.getRoleIdList());
+		sysUserRoleService.saveOrUpdate(user.getId(), user.getRoleIdList());
 	}
 
 	@Override

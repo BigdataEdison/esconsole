@@ -13,6 +13,8 @@ import io.renren.validator.ValidatorUtils;
 import org.apache.commons.lang.ArrayUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.crypto.hash.Sha256Hash;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,6 +31,8 @@ import java.util.Map;
 @RestController
 @RequestMapping("/sys/user")
 public class SysUserController extends AbstractController {
+
+	protected final static Logger logger = LoggerFactory.getLogger(SysUserController.class);
 	@Autowired
 	private SysUserService sysUserService;
 	@Autowired
@@ -40,9 +44,10 @@ public class SysUserController extends AbstractController {
 	@RequestMapping("/list")
 	@RequiresPermissions("sys:user:list")
 	public R list(@RequestParam Map<String, Object> params){
+		logger.info("<------------------------>/sys/user/list");
 		//只有超级管理员，才能查看所有管理员列表
-		if(getUserId() != Constant.SUPER_ADMIN){
-			params.put("createUserId", getUserId());
+		if(getId() != Constant.SUPER_ADMIN){
+			params.put("createUserId", getId());
 		}
 		
 		//查询列表数据
@@ -77,7 +82,7 @@ public class SysUserController extends AbstractController {
 		newPassword = new Sha256Hash(newPassword).toHex();
 				
 		//更新密码
-		int count = sysUserService.updatePassword(getUserId(), password, newPassword);
+		int count = sysUserService.updatePassword(getId(), password, newPassword);
 		if(count == 0){
 			return R.error("原密码不正确");
 		}
@@ -112,7 +117,7 @@ public class SysUserController extends AbstractController {
 	public R save(@RequestBody SysUserEntity user){
 		ValidatorUtils.validateEntity(user, AddGroup.class);
 		
-		user.setCreateUserId(getUserId());
+		user.setCreateUserId(getId());
 		sysUserService.save(user);
 		
 		return R.ok();
@@ -127,7 +132,7 @@ public class SysUserController extends AbstractController {
 	public R update(@RequestBody SysUserEntity user){
 		ValidatorUtils.validateEntity(user, UpdateGroup.class);
 		
-		user.setCreateUserId(getUserId());
+		user.setCreateUserId(getId());
 		sysUserService.update(user);
 		
 		return R.ok();
@@ -144,7 +149,7 @@ public class SysUserController extends AbstractController {
 			return R.error("系统管理员不能删除");
 		}
 		
-		if(ArrayUtils.contains(userIds, getUserId())){
+		if(ArrayUtils.contains(userIds, getId())){
 			return R.error("当前用户不能删除");
 		}
 		

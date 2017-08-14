@@ -38,6 +38,7 @@ import java.util.Map;
 @RequestMapping("/sys/esquery")
 public class SysEsqueryController {
 	protected final static Logger logger = LoggerFactory.getLogger(SysEsqueryController.class);
+
 	@Autowired
 	private SysLogService sysLogService;
 	

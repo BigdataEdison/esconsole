@@ -13,9 +13,6 @@
         <dependent-module archiveName="renren-gen-2.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/esconsole-gen/esconsole-gen">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="renren-schedule-2.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/esconsole-schedule/esconsole-schedule">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="renren-api-2.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/esconsole-api/esconsole-api">
             <dependency-type>uses</dependency-type>
         </dependent-module>

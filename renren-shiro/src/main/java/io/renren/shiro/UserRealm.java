@@ -47,19 +47,19 @@ public class UserRealm extends AuthorizingRealm {
 	@Override
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
 		SysUserEntity user = (SysUserEntity)principals.getPrimaryPrincipal();
-		Long userId = user.getUserId();
+		Long id = user.getId();
 		
 		List<String> permsList = null;
 		
 		//系统管理员，拥有最高权限
-		if(userId == 1){
+		if(id == 1){
 			List<SysMenuEntity> menuList = sysMenuDao.queryList(new HashMap<String, Object>());
 			permsList = new ArrayList<>(menuList.size());
 			for(SysMenuEntity menu : menuList){
 				permsList.add(menu.getPerms());
 			}
 		}else{
-			permsList = sysUserDao.queryAllPerms(userId);
+			permsList = sysUserDao.queryAllPerms(id);
 		}
 
 		//用户权限列表

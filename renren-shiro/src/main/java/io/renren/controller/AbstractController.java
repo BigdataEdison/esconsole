@@ -19,7 +19,11 @@ public abstract class AbstractController {
 		return ShiroUtils.getUserEntity();
 	}
 
-	protected Long getUserId() {
-		return getUser().getUserId();
+//	protected Long getUserId() {
+//		return getUser().getUserId();
+//	}
+	
+	protected Long getId(){
+		return getUser().getId();
 	}
 }

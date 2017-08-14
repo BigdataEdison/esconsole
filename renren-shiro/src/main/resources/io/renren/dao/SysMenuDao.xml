@@ -4,14 +4,13 @@
 <mapper namespace="io.renren.dao.SysMenuDao">
 
 	<select id="queryObject" resultType="io.renren.entity.SysMenuEntity">
-		select * from sys_menu where menu_id = #{value}
+		select * from sys_menu where id = #{value}
 	</select>
 	
 	<insert id="save" parameterType="io.renren.entity.SysMenuEntity">
 		insert into sys_menu
 		(
-			`menu_id`, 
-			`parent_id`, 
+			`parent_id`,
 			`name`, 
 			`url`, 
 			`perms`, 
@@ -21,8 +20,7 @@
 		)
 		values
 		(
-			#{menuId}, 
-			#{parentId}, 
+			#{parentId},
 			#{name}, 
 			#{url}, 
 			#{perms}, 
@@ -41,7 +39,7 @@
 	</select>
 	
 	<select id="queryList" resultType="io.renren.entity.SysMenuEntity">
-		select m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName 
+		select m.*,(select p.name from sys_menu p where p.id = m.parent_id) as parentName
 			from sys_menu m
 		<choose>
 			<when test="sidx != null and sidx.trim() != ''">
@@ -58,11 +56,11 @@
 	
 	<!-- 查询用户的权限列表 --> 
 	<select id="queryUserList" resultType="io.renren.entity.SysMenuEntity">
-		select distinct m.*,(select p.name from sys_menu p where p.menu_id = m.parent_id) as parentName
-			from sys_user_role ur 
+		select distinct m.*,(select p.name from sys_menu p where p.id = m.parent_id) as parentName
+			from sys_user_role ur
 			LEFT JOIN sys_role_menu rm on ur.role_id = rm.role_id 
-			LEFT JOIN sys_menu m on rm.menu_id = m.menu_id 
-		where ur.user_id = #{userId} order by m.order_num asc
+			LEFT JOIN sys_menu m on rm.menu_id = m.id
+		where ur.user_id = #{id} order by m.order_num asc
 	</select>
 	
 	<select id="queryTotal" resultType="int">
@@ -80,18 +78,18 @@
 			<if test="icon != null">`icon` = #{icon}, </if>
 			<if test="orderNum != null">`order_num` = #{orderNum}</if>
 		</set>
-		where menu_id = #{menuId}
+		where id = #{id}
 	</update>
 	
 	<delete id="deleteBatch">
-		delete from sys_menu where menu_id in 
+		delete from sys_menu where id in
 		<foreach item="menuId" collection="array" open="(" separator="," close=")">
-			#{menuId}
+			#{id}
 		</foreach>
 		;
-		delete from sys_role_menu where menu_id in 
+		delete from sys_role_menu where id in
 		<foreach item="menuId" collection="array" open="(" separator="," close=")">
-			#{menuId}
+			#{id}
 		</foreach>
 	</delete>
 	

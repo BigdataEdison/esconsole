@@ -42,6 +42,8 @@ public class SysUserRoleServiceImpl implements SysUserRoleService {
 
 	@Override
 	public List<Long> queryRoleIdList(Long userId) {
+
+
 		return sysUserRoleDao.queryRoleIdList(userId);
 	}
 

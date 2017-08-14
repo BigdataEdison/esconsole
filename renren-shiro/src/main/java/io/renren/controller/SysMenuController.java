@@ -54,7 +54,7 @@ public class SysMenuController extends AbstractController {
 		
 		//添加顶级菜单
 		SysMenuEntity root = new SysMenuEntity();
-		root.setMenuId(0L);
+		root.setId(0L);
 		root.setName("一级菜单");
 		root.setParentId(-1L);
 		root.setOpen(true);
@@ -73,10 +73,10 @@ public class SysMenuController extends AbstractController {
 		List<SysMenuEntity> menuList = null;
 		
 		//只有超级管理员，才能查看所有管理员列表
-		if(getUserId() == Constant.SUPER_ADMIN){
+		if(getId() == Constant.SUPER_ADMIN){
 			menuList = sysMenuService.queryList(new HashMap<String, Object>());
 		}else{
-			menuList = sysMenuService.queryUserList(getUserId());
+			menuList = sysMenuService.queryUserList(getId());
 		}
 		
 		return R.ok().put("menuList", menuList);
@@ -144,8 +144,8 @@ public class SysMenuController extends AbstractController {
 	 */
 	@RequestMapping("/user")
 	public R user(){
-		List<SysMenuEntity> menuList = sysMenuService.getUserMenuList(getUserId());
-		
+		List<SysMenuEntity> menuList = sysMenuService.getUserMenuList(getId());
+
 		return R.ok().put("menuList", menuList);
 	}
 	

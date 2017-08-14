@@ -16,11 +16,12 @@ import java.util.List;
  */
 public class SysRoleEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
+	private Long id;
 	/**
 	 * 角色ID
 	 */
-	private Long roleId;
+//	private Long roleId;
 
 	/**
 	 * 角色名称
@@ -45,21 +46,29 @@ public class SysRoleEntity implements Serializable {
 	 */
 	private Date createTime;
 
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
 	/**
 	 * 设置：
 	 * @param roleId 
 	 */
-	public void setRoleId(Long roleId) {
-		this.roleId = roleId;
-	}
+//	public void setRoleId(Long roleId) {
+//		this.roleId = roleId;
+//	}
 
 	/**
 	 * 获取：
 	 * @return Long
 	 */
-	public Long getRoleId() {
-		return roleId;
-	}
+//	public Long getRoleId() {
+//		return roleId;
+//	}
 	
 	/**
 	 * 设置：角色名称
