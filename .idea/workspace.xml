@@ -1,82 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f489cf82-3117-47e3-8b52-c3e0e74b79b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-api/.classpath" afterPath="$PROJECT_DIR$/renren-api/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-api/.project" afterPath="$PROJECT_DIR$/renren-api/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/renren-api/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-common/.classpath" afterPath="$PROJECT_DIR$/renren-common/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-common/.project" afterPath="$PROJECT_DIR$/renren-common/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/renren-common/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-common/src/main/resources/db.properties" afterPath="$PROJECT_DIR$/renren-common/src/main/resources/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-gen/.classpath" afterPath="$PROJECT_DIR$/renren-gen/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-gen/.project" afterPath="$PROJECT_DIR$/renren-gen/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/renren-gen/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-schedule/.classpath" afterPath="$PROJECT_DIR$/renren-schedule/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-schedule/.project" afterPath="$PROJECT_DIR$/renren-schedule/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/renren-schedule/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/.classpath" afterPath="$PROJECT_DIR$/renren-shiro/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/.project" afterPath="$PROJECT_DIR$/renren-shiro/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/renren-shiro/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/AbstractController.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/AbstractController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/SysMenuController.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/SysMenuController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/SysRoleController.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/SysRoleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/SysUserController.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/SysUserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/dao/SysUserDao.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/dao/SysUserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/entity/SysMenuEntity.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/entity/SysMenuEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/entity/SysRoleEntity.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/entity/SysRoleEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/entity/SysUserEntity.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/entity/SysUserEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/SysMenuService.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/SysMenuService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/impl/SysMenuServiceImpl.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/impl/SysMenuServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/impl/SysRoleServiceImpl.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/impl/SysRoleServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/impl/SysUserRoleServiceImpl.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/impl/SysUserRoleServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/impl/SysUserServiceImpl.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/service/impl/SysUserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/shiro/UserRealm.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/shiro/UserRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/utils/ShiroUtils.java" afterPath="$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/utils/ShiroUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysMenuDao.xml" afterPath="$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysMenuDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysRoleDao.xml" afterPath="$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysRoleDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysUserDao.xml" afterPath="$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysUserDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.classpath" afterPath="$PROJECT_DIR$/renren-web/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.project" afterPath="$PROJECT_DIR$/renren-web/.project" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.settings/.jsdtscope" afterPath="$PROJECT_DIR$/renren-web/.settings/.jsdtscope" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.core.resources.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.wst.common.component" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.wst.common.project.facet.core.xml" afterPath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.wst.common.project.facet.core.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.wst.validation.prefs" afterPath="$PROJECT_DIR$/renren-web/.settings/org.eclipse.wst.validation.prefs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/pom.xml" afterPath="$PROJECT_DIR$/renren-web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/src/main/java/io/renren/controller/SysEsqueryController.java" afterPath="$PROJECT_DIR$/renren-web/src/main/java/io/renren/controller/SysEsqueryController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/src/main/webapp/WEB-INF/page/sys/esquery.html" afterPath="$PROJECT_DIR$/renren-web/src/main/webapp/WEB-INF/page/sys/esquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/esquery.js" afterPath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/esquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/grid.locale-cn.js" afterPath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/grid.locale-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/menu.js" afterPath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/role.js" afterPath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/role.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/user.js" afterPath="$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/user.js" />
-    </list>
+    <list default="true" id="f489cf82-3117-47e3-8b52-c3e0e74b79b7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/renren-api/target/" />
     <ignored path="$PROJECT_DIR$/renren-shiro/target/" />
     <ignored path="$PROJECT_DIR$/renren-web/target/" />
@@ -144,37 +69,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/db.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-218">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysMenuDao.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SysMenuDao.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysMenuDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
+            <state relative-caret-position="436">
               <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysRoleMenuDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysRoleMenuDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserRoleDao.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SysUserRoleDao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysUserRoleDao.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -216,8 +121,8 @@
       <find>未知异常，请联系管理员</find>
       <find>auto-proxying</find>
       <find>auto-proxyin</find>
-      <find>getMenuTree</find>
       <find>insert into sys_role_menu</find>
+      <find>getMenuTree</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -606,7 +511,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -619,7 +523,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33013698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33013698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30936995" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -1034,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-common/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/renren-api/src/main/resources/renren-api.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
@@ -1050,17 +946,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/SysMenuController.java">
+    <entry file="file://$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/role.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+        <state relative-caret-position="2176">
+          <caret line="128" column="13" lean-forward="true" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/db.sql">
+    <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysUserRoleDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-common/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -1074,18 +978,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-web/src/main/webapp/js/sys/role.js">
+    <entry file="file://$PROJECT_DIR$/doc/db.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="13" lean-forward="true" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysMenuDao.xml">
+    <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/java/io/renren/controller/SysMenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+          <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1098,10 +1002,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysUserRoleDao.xml">
+    <entry file="file://$PROJECT_DIR$/renren-shiro/src/main/resources/io/renren/dao/SysMenuDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="436">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
           <folding />
         </state>
       </provider>
